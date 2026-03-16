@@ -31,6 +31,13 @@ public class Herencia {
 
         Administrativo a1 = new Administrativo("Carlos Guzmán", 39, "Contabilidad", "Contador");
         Administrativo a2 = new Administrativo("Sara Lopez", 29, "Oficina asesora", "Asesora");
+ 
+        Personal pe1 = new Personal("Johan Camargo", 35, "Vigilante", "Diurno");
+        Personal pe2 = new Personal("Daniel Olivares", 22, "Cocinero", "Diurno");
+
+        Egresados eg1 = new Egresados("Catalina Parra", 26, "Ingeniería de sistemas", 2022);
+        Egresados eg2 = new Egresados("Miguel Quintero", 30, "Periodismo", 2015);
+
 
         System.out.println("\nLISTA ESTUDIANTES:");
             for(int i = 0; i < estudiantes.length; i++){
@@ -39,10 +46,20 @@ public class Herencia {
         
         System.out.println("\nLISTA PROFESORES");
         System.out.println(p1.getInfo());
+        System.out.println(p2.getInfo());
         
-        System.out.println("\nLISTA Admnistrativos");
+        System.out.println("\nLISTA ADMINISTRATIVOS");
         System.out.println(a1.getInfo());
         System.out.println(a2.getInfo());
+
+        System.out.println("\nLISTA PERSONAL");
+        System.out.println(pe1.getInfo());
+        System.out.println(pe2.getInfo());
+
+        System.out.println("\nLISTA EGRESADOS");
+        System.out.println(eg1.getInfo());
+        System.out.println(eg2.getInfo());
+       
     }
 
 }
