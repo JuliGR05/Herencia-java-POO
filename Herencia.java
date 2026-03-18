@@ -38,7 +38,10 @@ public class Herencia {
         Egresados eg1 = new Egresados("Catalina Parra", 26, "Ingeniería de sistemas", 2022);
         Egresados eg2 = new Egresados("Miguel Quintero", 30, "Periodismo", 2015);
 
-
+        //Usando set 
+        a1.setNombre("Juana");
+        a1.setEdad(33);
+        
         System.out.println("\nLISTA ESTUDIANTES:");
             for(int i = 0; i < estudiantes.length; i++){
                 System.out.println(estudiantes[i].getInfo());
@@ -51,6 +54,10 @@ public class Herencia {
         System.out.println("\nLISTA ADMINISTRATIVOS");
         System.out.println(a1.getInfo());
         System.out.println(a2.getInfo());
+
+        
+        System.out.println(a1.getNombre());
+        System.out.println(a1.getEdad());
 
         System.out.println("\nLISTA PERSONAL");
         System.out.println(pe1.getInfo());

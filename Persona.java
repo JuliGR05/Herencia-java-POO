@@ -15,11 +15,11 @@ public class Persona {
         return edad;
     }
 
-    public void setNombre () {
+    public void setNombre (String nombre) {
         this.nombre = nombre;
     }
 
-    public void setEdad (){
+    public void setEdad (int edad){
         this.edad = edad;
     }
 
